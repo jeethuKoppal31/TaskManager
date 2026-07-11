@@ -1,0 +1,130 @@
+.task-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background: #ffffff;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.task-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+.task-left {
+    flex: 1;
+}
+
+.task-left h3 {
+    margin: 0 0 10px;
+    color: #2563eb;
+}
+
+.task-left p {
+    margin: 8px 0;
+    color: #444;
+}
+
+.task-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    min-width: 180px;
+}
+
+.completed-label {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background: #f59e0b;
+}
+
+.edit-btn:hover {
+    background: #d97706;
+}
+
+.delete-btn {
+    background: #ef4444;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+.priority-high {
+    color: white;
+    background: #ef4444;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.priority-medium {
+    color: white;
+    background: #f59e0b;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.priority-low {
+    color: white;
+    background: #22c55e;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.priority-high{
+    background:#ef4444;
+    color:white;
+    padding:4px 10px;
+    border-radius:20px;
+    margin-left:8px;
+    font-size:13px;
+}
+
+.priority-medium{
+    background:#f59e0b;
+    color:white;
+    padding:4px 10px;
+    border-radius:20px;
+    margin-left:8px;
+    font-size:13px;
+}
+
+.priority-low{
+    background:#22c55e;
+    color:white;
+    padding:4px 10px;
+    border-radius:20px;
+    margin-left:8px;
+    font-size:13px;
+}
