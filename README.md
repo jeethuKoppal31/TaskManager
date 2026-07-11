@@ -44,8 +44,10 @@ Progress Bar
 Backend Setup
 1 Clone Repository
 git clone <repository-url>
+
 2 Go into project
 cd TaskManager
+
 3 Create Virtual Environment
 
 Windows
