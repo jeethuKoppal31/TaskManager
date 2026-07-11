@@ -5,61 +5,66 @@ Task Manager is a full-stack web application built using React.js, Django REST F
 
 Users can:
 
-Register
-Login
-Create Tasks
-Edit Tasks
-Delete Tasks
-Mark Tasks as Completed
-Filter Tasks
-Search Tasks
-Track Task Progress
+Register,
+Login,
+Create Tasks,
+Edit Tasks,
+Delete Tasks,
+Mark Tasks as Completed,
+Filter Tasks,
+Search Tasks,
+Track Task Progress.
 
 Technologies Used:
 
 Frontend:
-React.js
-Axios
-React Router
+React.js,
+Axios,
+React Router.
 
 Backend:
-Django
-Django REST Framework
-Simple JWT
+Django,
+Django REST Framework,
+Simple JWT,
 
 Database:
 PostgreSQL
 
 
 Features:
-User Authentication
-JWT Login
-CRUD Operations
-Search Tasks
-Filter Tasks
-Due Date
-Priority
-Progress Bar
+
+User Authentication,
+JWT Login,
+CRUD Operations,
+Search Tasks,
+Filter Tasks,
+Due Date,
+Priority,
+Progress Bar.
 
 Backend Setup
+
 1 Clone Repository
+
 git clone <repository-url>
 
 2 Go into project
+
 cd TaskManager
 
 3 Create Virtual Environment
 
-Windows
+Windows:
 python -m venv venv
 
-Activate
+Activate:
 venv\Scripts\activate
 
-4 Install Packages
+4 Install Packages:
 pip install -r requirements.txt
 
 5 Configure Environment Variables
+
 Create
 
 .env
@@ -78,10 +83,12 @@ DB_HOST=localhost
 
 DB_PORT=5432
 
-6 Run Migrations
+6 Run Migrations:
+
 python manage.py migrate
 
-7 Start Backend
+7 Start Backend:
+
 python manage.py runserver
 
 Backend runs at:
@@ -89,7 +96,8 @@ Backend runs at:
 http://127.0.0.1:8000/
 
 
-Frontend Setup
+Frontend Setup:
+
 Open another terminal.
 
 cd frontend
